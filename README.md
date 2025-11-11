@@ -100,7 +100,7 @@ def recursion(..., level):
         # 🔵 B
         compute_partial()
         
-        if filter: # 🟡 C
+        if filter: # 🟡 C - Se necessario filtrare prima di procedere con la ricorsione
             recursion(..., level  +1)
         
         # 🟣 D
